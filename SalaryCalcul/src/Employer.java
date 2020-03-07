@@ -1,9 +1,8 @@
-import java.sql.Date;
-
 public abstract class Employer {
 	String firstName;
 	String lastName;
 	String entryDate;
+	
 	int age;
 	public String getFirstName() {
 		return firstName;
