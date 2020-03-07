@@ -68,6 +68,9 @@
      <configuration>
        <devserver.host>0.0.0.0</devserver.host>
        <devserver.port>8181</devserver.port>
+        <project>My First Project</project>
+          <deploy.promote>true</deploy.promote>
+          <deploy.stopPreviousVersion>true</deploy.stopPreviousVersion>
      </configuration>
   </plugin>
 		</plugins>
